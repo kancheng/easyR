@@ -1,0 +1,67 @@
+﻿# 16
+
+http://cran.csie.ntu.edu.tw/ 
+https://zh.wikipedia.org/wiki/Ubuntu
+
+
+# 17
+~$ lsb_release –a
+~$ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
+
+# 18
+
+~$ sudo vim /etc/apt/sources.list
+
+deb http://cran.csie.ntu.edu.tw/bin/linux/ubuntu [指定版本名稱]/
+
+
+# 19
+
+sudo sh -c 'echo "deb http://cran.csie.ntu.edu.tw/bin/linux/ubuntu [指定版本名稱]/" >> /etc/apt/sources.list‘
+
+~$ sudo apt-get install vim -y
+
+
+# 20
+
+~$ sudo apt-get update
+
+
+# 21
+
+~$ sudo apt-get install r-base r-base-dev
+
+
+# 22
+
+~$ R
+
+
+# 47
+# http://aka.ms/rtvs-current
+
+
+# 53
+
+{
+    "version": "0.1.0",
+    "command": "C:\\Program Files\\R\\R-[版本]\\bin\\x64\\rterm.exe",
+    "showOutput": "always",
+    "args": [
+        "--no-restore",
+        "--no-save",
+        "--quiet",
+        "--file=${file}"
+    ]
+}
+
+
+
+
+
+
+
+
+
+
