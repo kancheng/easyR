@@ -1,0 +1,75 @@
+﻿
+# 24
+# Rtool
+https://cran.r-project.org/bin/windows/Rtools/
+
+# 26
+MariaDB - https://mariadb.org/
+
+# 38
+
+Renviron.site 內容為
+MYSQL_HOME='MariaDB路徑'
+
+# 42
+# DB
+
+CREATE DATABASE school;
+SHOW DATABASES;
+USE school;
+CREATE TABLE stdscore
+(stdscoreid int auto_increment primary key,
+stdno char(7),
+name char(50),
+birthdate date,
+courseno char(6),
+courname char(50),
+teacher char(50),
+score int);
+
+SHOW TABLES;
+
+INSERT INTO stdscore (stdno, name, birthdate, courseno, courname, teacher, score)
+VALUES('9643001', 'Linda', '1982/1/15', 'MS1038', 'Statistics', 'Henry Chen', 88);
+INSERT INTO stdscore (stdno, name, birthdate, courseno, courname, teacher, score)
+VALUES('9643001', 'Linda', '1982/1/15', 'MS1014', 'Data Structure', 'James Lee', 82);
+INSERT INTO stdscore (stdno, name, birthdate, courseno, courname, teacher, score)
+VALUES('9643018', 'Tracy', '1982/11/18', 'MS1014', 'Data Structure', 'James Lee', 77);
+
+INSERT INTO stdscore (stdno, name, birthdate, courseno, courname, teacher, score)
+VALUES('9643025', 'Tom', '1982/9/17', 'MS1038', 'Statistics', 'Henry Chen', 65);
+SELECT * FROM stdscore;
+
+# 44
+~$ sudo apt-get update
+~$ sudo apt-get install r-cran-rmysql
+
+# 46
+~$ sudo apt-get install libmariadb-client-lgpl-dev -y
+
+~$ ls /tmp/RtmpFBqpwR/downloaded_packages
+
+~$ whereis mysql
+
+~$ R CMD INSTALL --configure-args='--with-mysql-dir=/usr/lib/mysql' /tmp/Rtmp*****R/downloaded_packages/RMySQL_0.10.9.tar.gz
+
+# 47
+
+
+~$ mysql -u root -p
+
+> create database rmysql;
+> grant all on rmysql.* to rmysql@'%' identified by 'rmysql';
+> grant all on rmysql.* to rmysql@localhost identified by 'rmysql';
+> use rmysql
+
+> CREATE TABLE t_user(
+id INT PRIMARY KEY AUTO_INCREMENT,
+user varchar(12) NOT NULL UNIQUE
+)ENGINE=INNODB DEFAULT CHARSET=utf8;
+
+> INSERT INTO t_user(user) values('A1'),('AB'),('fens.me');
+> SELECT * FROM t_user;
+
+# 70
+https://www.rdocumentation.org/
