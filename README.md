@@ -9,7 +9,7 @@ R Handout
 
 `Chapter 2` - R Tool
 
-`Chapter 3` - RData Cleaning & Analysis
+`Chapter 3` - R Data Cleaning & Analysis
 
 `Chapter 4` - R Visualization
 
