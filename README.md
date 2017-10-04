@@ -32,7 +32,7 @@ https://kancheng.github.io/
 
 ## Preface
 
-這份教材內容取自 `Reference` 做為參考資料，也是作者當初學習 R 的路徑，建議學習者必須同時具備 `Unix-like` 與 `MS Windows`的作業系統的基本概念。`C00` ~ `C05` 目錄為各章節的資料與程式碼，包含該章所需要的指令資訊。 `Slides` 目錄為各章課程簡報。事前環境架設請參考 `Chapter 0` 的內容。
+這份教材內容取自 `Reference` 做為參考資料，也是筆者當初學習 R 的路徑，建議學習者必須同時具備 `Unix-like` 與 `MS Windows`的作業系統的基本概念。`C00` ~ `C05` 目錄為各章節的資料與程式碼，包含該章所需要的指令資訊。 `Slides` 目錄為各章課程簡報。事前環境架設請參考 `Chapter 0` 的內容。
 
 `Chapter 0` - R Environment
 
