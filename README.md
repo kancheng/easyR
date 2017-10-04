@@ -28,3 +28,5 @@ https://kancheng.github.io/
 
 4. 簡禎富、許嘉裕，2014，資料挖礦與大數據分析，新北，前程文化事業有限公司。
 
+5. R Software, http://www.hmwu.idv.tw/index.php/r-software
+
