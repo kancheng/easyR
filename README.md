@@ -30,3 +30,6 @@ https://kancheng.github.io/
 
 5. R Software, http://www.hmwu.idv.tw/index.php/r-software
 
+## Preface
+
+這份教材內容取自 `Reference` 做為參考資料，也是作者當初學習 R 的路徑，建議學習者必須同時具備 `Unix-like` 與 `MS Windows`的作業系統的基本概念。
